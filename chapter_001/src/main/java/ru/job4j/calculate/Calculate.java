@@ -1,15 +1,15 @@
 package ru.job4j.calculate;
 
 /**
-* Ёто класс используемый нами при разработке задачи "Hello world".
+* Class used for develop "Hello world" program.
 *
 */
 public class Calculate {
 
 	/**
-	* “очка входа в программу "Hello world"
+	* main method of program "Hello world"
 	*
-	* @param args аргументы командной строки
+	* @param args comand line arguments
 	*/
 	public static void main(String... args) {
 		System.out.println("Hello World");
