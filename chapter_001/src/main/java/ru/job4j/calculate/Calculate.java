@@ -9,7 +9,7 @@ public class Calculate {
 	/**
 	* main method of program "Hello world"
 	*
-	* @param args comand line arguments
+	* @param args command line arguments
 	*/
 	public static void main(String... args) {
 		System.out.println("Hello World");
