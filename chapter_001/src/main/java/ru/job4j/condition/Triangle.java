@@ -61,7 +61,8 @@ public class Triangle {
 
 
 
-        return ab > 0D && ac > 0D && bc > 0D;
+        return ab > 0D && ac > 0D && bc > 0D
+                && (ab + ac) > bc;
     }
 
     /**
