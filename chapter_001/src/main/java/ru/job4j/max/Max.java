@@ -7,8 +7,8 @@ public class Max {
 
     /**
      * Return maximum of two integers.
-     * @param first - first number
-     * @param second - second number
+     * @param first - first parameter
+     * @param second - second parameter
      * @return maximum number.
      */
     public int max(int first, int second)
