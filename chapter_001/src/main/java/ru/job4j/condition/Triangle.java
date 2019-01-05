@@ -58,11 +58,12 @@ public class Triangle {
 
     private boolean exist(double ab, double ac, double bc)
     {
-
-
-
-        return ab > 0D && ac > 0D && bc > 0D
-                && (ab + ac) > bc;
+        return ab > 0D
+                && ac > 0D
+                && bc > 0D
+                && (ab + ac) > bc
+                && (ab + bc) > ac
+                && (bc + ac) > ab;
     }
 
     /**
