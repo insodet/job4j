@@ -16,14 +16,10 @@ public class Counter {
         int result = 0;
         for (int i = start; i <= finish; i++)
         {
-            if (i % 2 != 0)
-            {
-                continue;
+            if (i % 2 == 0) {
+                result = result + i;
             }
-
-            result = result + i;
         }
-
         return result;
     }
 }
