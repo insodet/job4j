@@ -10,19 +10,18 @@ public class Check {
      * @return результат true - если все элементы одинаковы, false в противном случае или если массив пуст
      */
     public boolean mono(boolean[] data) {
-        boolean result = false;
-        if (data.length == 0)
+        boolean result = true;
+        if (data.length != 0)
         {
-            return result;
-        }
-        boolean currentel = data[0];
-        for (int i = 1; i < data.length; i++) {
-            if (currentel != data[i]) {
-                result = false;
-                break;
-            }else {
-                result = true;
+            boolean currentel = data[0];
+            for (int i = 1; i < data.length; i++) {
+                if (currentel != data[i]) {
+                    result = false;
+                    break;
+                }
             }
+        }else {
+            result = false;
         }
         return result;
     }
